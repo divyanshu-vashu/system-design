@@ -1,5 +1,25 @@
 ## 3. High Level Design
 
+### 3.0 Basics: Building an Ecommerce App (1 to 1M)
+**Overview:** Introduction to system design through the evolution of a startup.
+
+- **Intro:** How do I use this course?
+- **#1:** What is System Design?
+- **#2:** A star-tup is born!
+- **#3:** Where are the pages?
+- **#4:** Debugging in the trenches
+- **#4.1:** Hard questions, harder answers
+- **#5:** Serverless or Server-More?
+- **#6:** Database-like Memory, Cache-like Recall
+- **#7:** The case of the Expensive Cache
+- **#8:** Sale Day Jitters
+- **#9:** A new CTO is born!
+- **#10:** Concluding the series!
+
+---
+
+
+
 ### 3.1 Design an Emailing service like Gmail [Link]
 - Scope and Requirement setting
 - Requirements List
