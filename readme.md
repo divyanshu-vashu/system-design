@@ -1,32 +1,23 @@
 # System Design Course Curriculum
 
-A comprehensive index of the System Design course content, covering basics, core concepts, high-level architecture designs, and deep dives into research papers.
+A comprehensive index of the System Design course content. This curriculum covers basics, core distributed system concepts, deep dives into real-world high-level architectures, and a library of additional design scenarios.
 
-## Table of Contents
+## 📖 Table of Contents
 
 - [1. Basics: Building an Ecommerce App](#1-basics-building-an-ecommerce-app-1-to-1m)
 - [2. Concepts](#2-concepts)
-    - [Databases Deep Dive](#21-databases-deep-dive)
-    - [Consistency in Distributed Systems](#22-consistency-in-distributed-systems)
-    - [Caches Deep Dive](#23-caches-deep-dive)
-    - [Networks Deep Dive](#24-networks-deep-dive)
-    - [Database Replication and Migration](#25-database-replication-and-migration)
-    - [Security in Distributed Systems](#26-security-in-distributed-systems)
-    - [Observability in Distributed Systems](#27-observability-in-distributed-systems)
-    - [Distributed Consensus with Paxos](#28-distributed-consensus-with-paxos)
-    - [Distributed Rate Limiting](#29-distributed-rate-limiting)
-    - [System Design Tradeoffs](#210-system-design-tradeoffs)
 - [3. High Level Design](#3-high-level-design)
-    - [Design an Emailing Service (Gmail)](#31-design-an-emailing-service-like-gmail)
-    - [Tinder System Design](#32-tinder-system-design)
-    - [WhatsApp System Design](#33-whatsapp-system-design)
-    - [Chess Design](#34-chess-design-building-a-highly-scalable-turn-based-gaming-website)
-    - [Hotstar: Live Video Streaming](#35-hotstar-live-video-streaming-design)
-    - [Google Docs: Collaborative Editor](#36-google-docs-collaborative-editor-design)
-    - [Uber: Cab Aggregator](#37-design-a-cab-aggregator-app-like-uber)
-    - [Google Maps: Location Based Service](#38-design-a-location-based-service-like-google-maps)
-    - [WhatsApp Calling App](#39-whatsapp-calling-app)
-    - [Recommendation Engine Design](#310-recommendation-engine-design)
+    - [3.1 Gmail (Emailing Service)](#31-design-an-emailing-service-like-gmail-link)
+    - [3.2 Tinder](#32-tinder-system-design-link)
+    - [3.3 WhatsApp](#33-whatsapp-system-design-link)
+    - [3.4 Chess (Turn-Based Gaming)](#34-chess-design-building-a-highly-scalable-turn-based-gaming-website-link)
+    - [3.5 Hotstar (Live Streaming)](#35-hotstar-live-video-streaming-design-link)
+    - [3.6 Google Docs (Collaborative Editor)](#36-google-docs-collaborative-editor-design-link)
+    - [3.7 Uber (Cab Aggregator)](#37-design-a-cab-aggregator-app-like-uber-link)
+    - [3.8 Google Maps (Location Services)](#38-design-a-location-based-service-like-google-maps-link)
+    - [3.9 WhatsApp Calling (VoIP)](#39-whatsapp-calling-app-link)
+    - [3.10 Recommendation Engine](#310-recommendation-engine-design-link)
+    - [Additional System Design Scenarios](#additional-system-design-scenarios)
 - [4. Research Paper Analysis](#4-research-paper-analysis)
 
 ---
@@ -34,32 +25,32 @@ A comprehensive index of the System Design course content, covering basics, core
 ## 1. Basics: Building an Ecommerce App (1 to 1M)
 **Overview:** Introduction to system design through the evolution of a startup.
 
-- **Intro:** How do I use this course? 
-- **#1:** What is System Design? 
-- **#2:** A star-tup is born! 
-- **#3:** Where are the pages? 
-- **#4:** Debugging in the trenches 
-- **#4.1:** Hard questions, harder answers 
-- **#5:** Serverless or Server-More? 
-- **#6:** Database-like Memory, Cache-like Recall 
-- **#7:** The case of the Expensive Cache 
-- **#8:** Sale Day Jitters 
-- **#9:** A new CTO is born! 
-- **#10:** Concluding the series! 
+- **Intro:** How do I use this course?
+- **#1:** What is System Design?
+- **#2:** A star-tup is born!
+- **#3:** Where are the pages?
+- **#4:** Debugging in the trenches
+- **#4.1:** Hard questions, harder answers
+- **#5:** Serverless or Server-More?
+- **#6:** Database-like Memory, Cache-like Recall
+- **#7:** The case of the Expensive Cache
+- **#8:** Sale Day Jitters
+- **#9:** A new CTO is born!
+- **#10:** Concluding the series!
 
 ---
 
 ## 2. Concepts
 
 ### 2.1 Databases Deep Dive
-- What are Databases? 
-- Storage and Retrieval 
+- What are Databases?
+- Storage and Retrieval
 - What is a NoSQL database?
 - Types of Databases: Graph, TimeSeries and Object
 - What database should you choose?
 
 ### 2.2 Consistency in Distributed Systems
-- What is Data Consistency? 
+- What is Data Consistency?
 - Linearizable Consistency
 - Eventual Consistency
 - Causal Consistency
@@ -86,7 +77,7 @@ A comprehensive index of the System Design course content, covering basics, core
 - **PDF Summary**
 
 ### 2.4 Networks Deep Dive
-- Breakdown: The physical layer 
+- Breakdown: The physical layer
 - Breakdown: The Routing Layer
 - Breakdown: The behavioral layer
 - **Quiz 1:** 3 questions
@@ -112,7 +103,7 @@ A comprehensive index of the System Design course content, covering basics, core
 - **Database Migration Summary**
 
 ### 2.6 Security in Distributed Systems
-- Security aspects in distributed systems 
+- Security aspects in distributed systems
 - Token Based Auth
 - SSO and OAuth
 - Access Control Lists and Rule Engines
@@ -121,7 +112,7 @@ A comprehensive index of the System Design course content, covering basics, core
 - **Quiz:** Security Best Practices (5 questions)
 
 ### 2.7 Observability in Distributed Systems
-- Introduction to Observability 
+- Introduction to Observability
 - Logging - Best Practices
 - Monitoring Metrics
 - Anomaly Detection: Holt-Winters Algorithm
@@ -129,7 +120,7 @@ A comprehensive index of the System Design course content, covering basics, core
 - Conclusion to Observability
 
 ### 2.8 Distributed Consensus with Paxos
-- The Problem of Distributed Consensus 
+- The Problem of Distributed Consensus
 - Basic Algorithm
 - Improving the algorithm
 - Termination Conditions
@@ -148,7 +139,7 @@ A comprehensive index of the System Design course content, covering basics, core
 - FAQs
 
 ### 2.10 System Design Tradeoffs
-- Introduction to design tradeoffs 
+- Introduction to design tradeoffs
 - Pull vs. Push Architectures
 - Memory vs. Latency
 - Throughput vs. Latency
@@ -165,8 +156,8 @@ A comprehensive index of the System Design course content, covering basics, core
 
 ## 3. High Level Design
 
-### 3.1 Design an Emailing service like Gmail
-- Scope and Requirement setting 
+### 3.1 Design an Emailing service like Gmail [Link]
+- Scope and Requirement setting
 - Requirements List
 - Chapter #1: Service Registration and Proxies
 - Architecture Diagram 1
@@ -189,31 +180,31 @@ A comprehensive index of the System Design course content, covering basics, core
 - Summary - PDF
 - **Design Question:** Gmail Service
 
-### 3.2 Tinder System Design
-- Requirements 
-- Image Storage: Files vs. Database BLOB 
+### 3.2 Tinder System Design [Link]
+- Requirements
+- Image Storage: Files vs. Database BLOB
 - **Quiz 1:** 3 questions
-- Profile Creation and Authentication 
-- One to One chat messaging 
+- Profile Creation and Authentication
+- One to One chat messaging
 - **Quiz 2:** 3 questions
-- Matching right-swiped users 
-- Serving recommendations to users 
+- Matching right-swiped users
+- Serving recommendations to users
 - **Quiz 3:** 3 questions
 - Architecture Diagram
 - **Design Question:** Tinder Recommendations
 - Summary - PDF
 
-### 3.3 WhatsApp System Design
-- System Requirements 
-- One to one messaging 
-- Last Seen Timestamps 
-- Group Messaging 
+### 3.3 WhatsApp System Design [Link]
+- System Requirements
+- One to one messaging
+- Last Seen Timestamps
+- Group Messaging
 - Architecture Diagram
 - **Design Question:** WhatsApp Group Chat
 - Summary - PDF
 
-### 3.4 Chess Design: Building a highly scalable turn-based gaming website
-- Requirements of a chess website 
+### 3.4 Chess Design: Building a highly scalable turn-based gaming website [Link]
+- Requirements of a chess website
 - Handling connections at scale
 - **Quiz 1:** 3 questions
 - Consistent Hashing vs. Sharding
@@ -227,20 +218,20 @@ A comprehensive index of the System Design course content, covering basics, core
 - Summary - PDF
 - **Design Question:** Chess Website
 
-### 3.5 Hotstar: Live Video Streaming Design
-- Live Streaming Requirement Breakdown 
-- Video Ingestion and Transformation 
+### 3.5 Hotstar: Live Video Streaming Design [Link]
+- Live Streaming Requirement Breakdown
+- Video Ingestion and Transformation
 - **Quiz 1:** 3 questions
 - Transferring processed videos to end users
 - FAQs
 - Capacity Planning
 - Architecture Diagram
 - **Quiz 2:** 3 questions
-- Virtual Advertising for live sports events 
+- Virtual Advertising for live sports events
 - **Design Question:** Live Streaming App
 
-### 3.6 Google Docs: Collaborative editor design
-- Google Docs Requirements 
+### 3.6 Google Docs: Collaborative editor design [Link]
+- Google Docs Requirements
 - Document Schema
 - Storing Documents
 - Version History
@@ -252,8 +243,8 @@ A comprehensive index of the System Design course content, covering basics, core
 - **Quiz:** 5 questions
 - **Design Question:** Google Docs
 
-### 3.7 Design a Cab Aggregator App like Uber
-- Requirements of a cab aggregator 
+### 3.7 Design a Cab Aggregator App like Uber [Link]
+- Requirements of a cab aggregator
 - Static Pricing of Rides
 - Ride Matching
 - Calculating Estimated Time of Arrival
@@ -261,8 +252,8 @@ A comprehensive index of the System Design course content, covering basics, core
 - **Quiz:** 5 questions
 - **Design Question:** Cab Aggregator
 
-### 3.8 Design a Location Based Service like Google Maps
-- Requirements of a Map application 
+### 3.8 Design a Location Based Service like Google Maps [Link]
+- Requirements of a Map application
 - Routing Challenges in Maps
 - Partitioning Algorithm: Splitting the graph into regions
 - Finding the shortest path - A* search
@@ -272,9 +263,9 @@ A comprehensive index of the System Design course content, covering basics, core
 - **Quiz:** 6 questions
 - **Design Question:** Google Maps
 
-### 3.9 WhatsApp Calling App
+### 3.9 WhatsApp Calling App [Link]
 - Requirements List
-- Calling App Design 
+- Calling App Design
 - Concept #1: Breaking calls into dialogs
 - Concept #2: The state machine
 - **Quiz 1:** 5 questions
@@ -289,8 +280,8 @@ A comprehensive index of the System Design course content, covering basics, core
 - **Design Question:** Calling App
 - Summary - PDF
 
-### 3.10 Recommendation Engine Design
-- Converting data sources to a lake 
+### 3.10 Recommendation Engine Design [Link]
+- Converting data sources to a lake
 - Querying on top of Views over the DB
 - Data Lake Interactions
 - The Map Reduce Architecture
@@ -306,6 +297,39 @@ A comprehensive index of the System Design course content, covering basics, core
 - Final Architecture Diagram
 - Summary - PDF
 - **Design Question:** Recommendation Engine
+
+### Additional System Design Scenarios
+*(Detailed design questions and architectures)*
+
+- Design a Reliable Webhook Dispatcher (powered by Kafka) [Link]
+- Design a Concurrent History Tracking System (track changes for registered entities) [Link]
+- Design a Cache Service (distributed, eviction policies, fault tolerance) [Link]
+- Design an Authentication/Authorization Service (OTP, OAuth, etc.) [Link]
+- Design an In-Memory Pub-Sub Model (producers, consumers, offsets) [Link]
+- Design a Config Manager Service (serve configs to internal/external services) [Link]
+- Design a Job Scheduler (accept job + cron expression) [Link]
+- Design an API Rate Limiter [Link]
+- System that ingests millions of transactions and serves millions of users [Link]
+- Design a URL Shortener [Link]
+- Design a Notification System (scalability, reliability, availability) [Link]
+- Design a Notification Service (multi-channel traffic like SMS/email/push) [Link]
+- Design a Leaderboard System (LeetCode-style rankings) [Link]
+- Design a Car Parking Application [Link]
+- Design a scalable Chat Application (WhatsApp/Slack) [Link]
+- Design a News Aggregator [Link]
+- Design an Auction Service (Seller lists products, Bidders search via Elasticsearch, Concurrency handling, Notifications) [Link]
+- Design a Subscription Model (recurring monthly/yearly payments) [Link]
+- Razorpay Subscription Flow (CureFit recurring billing with retries + confirmations) [Link]
+- Design a Payment System (like Razorpay/Stripe) [Link]
+- Design an E-commerce Checkout System [Link]
+- Design a Cab Booking App (like Ola/Uber) [Link]
+- Design a Ride-Hailing app (Uber/Ola) [Link]
+- Database design for ride-sharing [Link]
+- Design a Trending Topic Service (real-time trending content) [Link]
+- How would you scale a Video Streaming platform? [Link]
+- Data warehouse for an online retailer [Link]
+- Fraud detection model for transactions [Link]
+- Explain the design of one of your recent projects [Link]
 
 ### High Level Design Exam
 - **The Big Exam:** 13 questions
@@ -345,8 +369,8 @@ A comprehensive index of the System Design course content, covering basics, core
 - Lecture Notes Facebook GorillaDB
 
 ### 4.4 TAO - An in-memory graph database by Meta
-- 1. Usecases and Data Schema 
-- 2. Data Consistency and evictions 
+- 1. Usecases and Data Schema
+- 2. Data Consistency and evictions
 - 3. Cache Features for the graph
 - TAO Lecture Notes
 
