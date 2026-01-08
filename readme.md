@@ -23,7 +23,16 @@ A comprehensive index of the System Design course content. This curriculum cover
     - [3.9 WhatsApp Calling (VoIP)](#39-whatsapp-calling-app-link)
     - [3.10 Recommendation Engine](#310-recommendation-engine-design-link)
     - [Additional System Design Scenarios](#additional-system-design-scenarios)
-- [4. Research Paper Analysis](#4-research-paper-analysis)
+- [4. Research Paper Analysis](./Research_Paper/readme.md)
+    - [4.1 Scaling Memcached at Facebook](./Research_Paper/readme.md#41-scaling-memcached-at-facebook)
+    - [4.2 Google’s Authorization Service (Zanzibar)](./Research_Paper/readme.md#42-googles-authorization-service-zanzibar)
+    - [4.3 Timeseries Databases: Gorilla and Monarch](./Research_Paper/readme.md#43-timeseries-databases-gorilla-and-monarch)
+    - [4.4 TAO – In-Memory Graph Database (Meta)](./Research_Paper/readme.md#44-tao---an-in-memory-graph-database-by-meta)
+    - [4.5 Google Dremel – Interactive Analytics](./Research_Paper/readme.md#45-google-dremel---interactive-analytics)
+    - [4.6 Apache Kafka](./Research_Paper/readme.md#46-apache-kafka)
+    - [4.7 Apache Spark](./Research_Paper/readme.md#47-apache-spark)
+    - [4.8 Milvus DB (Vector Database)](./Research_Paper/readme.md#48-milvus-db)
+
 
 ---
 
