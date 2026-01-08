@@ -6,7 +6,7 @@ A comprehensive index of the System Design course content. This curriculum cover
 
 - [1. Basics: Building an Ecommerce App](#1-basics-building-an-ecommerce-app-1-to-1m)
 - [2. Concepts](#2-concepts)
-- [3. High Level Design] [https://github.com/divyanshu-vashu/system-design/edit/main/readme.md]
+- [3. High Level Design](https://github.com/divyanshu-vashu/system-design/tree/main/high_level#3-high-level-design)
     - [3.1 Gmail (Emailing Service)](#31-design-an-emailing-service-like-gmail-link)
     - [3.2 Tinder](#32-tinder-system-design-link)
     - [3.3 WhatsApp](#33-whatsapp-system-design-link)
