@@ -5,6 +5,10 @@ A comprehensive index of the System Design course content. This curriculum cover
 ## 📖 Table of Contents
 
 - [1. History](#)
+    - [Software](#)
+    - [Language](#)
+    - [API](#)
+    - [Server-DB](#)
 - [2. Concepts](https://github.com/divyanshu-vashu/system-design/tree/main/Concepts#concepts)
 - [3. High Level Design](https://github.com/divyanshu-vashu/system-design/tree/main/high_level#3-high-level-design)
     - [3.0 Basics: Building an Ecommerce App](#1-basics-building-an-ecommerce-app-1-to-1m)
